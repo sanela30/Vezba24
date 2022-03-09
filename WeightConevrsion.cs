@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Vezba24
 {
-    internal class Kilograms
+    internal class WeightConevrsion
     {
-
+        public static int Kg2Gr(int kilograms)
+        {
+            return kilograms * 1000;        }
+        
     }
 }
